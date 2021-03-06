@@ -1,0 +1,11 @@
+{
+  "name": "typescript-4.2-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:explain": "yarn tsc --explainFiles index.ts > explain.txt"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
